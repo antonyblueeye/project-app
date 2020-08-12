@@ -1,0 +1,31 @@
+{
+  "name": "project-app",
+  "version": "1.0.0",
+  "description": "Pure JavaScript experience, creating application using JS and Node.js",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antonyblueeye/project-app.git"
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "excel"
+  ],
+  "author": "Anton Synieokyi <anton.synieokyi@yahoo.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antonyblueeye/project-app/issues"
+  },
+  "homepage": "https://github.com/antonyblueeye/project-app#readme",
+  "private": true,
+  "devDependencies": {
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}
