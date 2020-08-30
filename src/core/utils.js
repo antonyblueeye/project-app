@@ -13,7 +13,7 @@ export function range(start, end) {
     }
     return new Array(end - start + 1)
         .fill('')
-        .map((_, index) => start + index)
+         .map((_, index) => start + index)
 }
 
 export function storage(key, data = null) {
@@ -51,4 +51,12 @@ export function debounce(fn, wait) {
         clearTimeout(timeout)
         timeout = setTimeout(later, wait)
     }
+}
+
+export function clone(obj) {
+    return JSON.parse(JSON.stringify(obj))
+}
+
+export function preventDefault(event) {
+    event.preventDefault()
 }
